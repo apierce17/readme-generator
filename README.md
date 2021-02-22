@@ -1,5 +1,5 @@
 
-    # Title: README-GENERATOR ![license](https://img.shields.io/badge/License-None--green.svg "License Badge")
+    # README-GENERATOR ![license](https://img.shields.io/badge/License-None--green.svg "License Badge")
     ## Description:
         A simple tool to help you build a quick and professional readme file for your projects.
     
