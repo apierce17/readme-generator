@@ -2,7 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 //Constant that turns the string into a file in the current folder
-const readMeOutput = './readME.md'
+const readMeOutput = '../readME.md'
 
 //Questions for user that will be in the readme
 inquirer.prompt([
@@ -45,7 +45,7 @@ inquirer.prompt([
             'Apache',
             'GPL',
             'BSD',
-            'None',
+            'No License',
         ],
         name: 'License',
     },
@@ -78,14 +78,14 @@ inquirer.prompt([
         ${response.description}
     
     ##Table of Contents:
-    -[Description](#description)
-    -[Installation](#installation)
-    -[Usage](#Usage)
-    -[Contributing](#Contributing)
-    -[Tests](#Tests)
-    -[Credits](#credits)
-    -[License](#License)
-    -[Questions](#Questions)
+    [Description](#description)
+    [Installation](#installation)
+    [Usage](#Usage)
+    [Contributing](#Contributing)
+    [Tests](#Tests)
+    [Credits](#credits)
+    [License](#License)
+    [Questions](#Questions)
 
     ## Installation Guide
         ${response.installation}
