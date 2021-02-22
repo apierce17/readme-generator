@@ -15,6 +15,7 @@
 
     ## Installation Guide
         Clone the repostitory, go into your terminal and type npm install(some machines require a different command), after thats installed enter npm install inquirer.
+    [Walkthrough Video](https://github.com/apierce17/readme-generator/blob/master/Develop/Videos/readme-generator-walkthrough.mp4)
     ## Usage Instructions:
         Once the generator is ready, in your terminal just type node index, make sure you are in the right dir first, then just answer questions as they are presented.
     ## Contributing Paties/information:
